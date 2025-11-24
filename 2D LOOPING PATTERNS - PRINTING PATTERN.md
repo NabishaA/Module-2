@@ -1,36 +1,45 @@
-# Exp.No:2d
-## LOOPING PATTERNS - PRINTING PATTERN
+**Exp.No:2d
+LOOPING PATTERNS - PRINTING PATTERN**
+# NAME : NABISHA A
+# REG NO : 212223060177
 
----
+**AIM** 
 
-### AIM  
-To write a Python program to print a triangular star pattern using loops.
+To write a Python program to print a pyramid pattern of numbers based on the number of rows entered by the user.
 
----
 
-### ALGORITHM
+**ALGORITHM**
 
-1. Begin the program.  
-2. Read the integer `n` from the user using `input()`. This will determine the number of rows in the pattern.  
-3. Initialize a variable `i = 0`. This will help adjust the spacing before the stars.  
-4. Loop through rows from `0` to `n - 1`:  
-   - For each row, calculate the number of spaces to print using the formula: `((n - rows - 1) * 2) + i`.  
-   - Print the calculated number of spaces using `print(" ", end="")`.  
-   - Increment `i` by 1 after each row.  
-   - Print stars using a nested loop: the number of stars in each row is `rows + 1`, printed using `print("*", end="  ")`.  
-   - Print a newline after each row using `print("")` to move to the next line.  
-5. Terminate the program.
+1. Begin the program.
+2. Read the number of rows a from the user using input() and convert it to an integer.
+3. Use a for loop that runs from i = 1 to a (inclusive) to handle the number of rows.
+4. Inside the loop, use a nested for loop that runs from j = 1 to i (inclusive) to print numbers in each row.
+5. Print each number j followed by a space, and keep the output on the same line using end=" ".
+6. After the inner loop ends, move to the next line using print(end="\n").
+7. Repeat steps 4–6 until the pyramid is printed.
+8. Terminate the program.
 
----
 
-### PROGRAM
-```
-#Reg.No:
-#Name:
-#Add Your Code Here
 
-```
 
-### OUTPUT
 
-### RESULT
+**PROGRAM**
+
+**212223060265 - SMRITHI K **
+
+a=int(input())
+for i in range(1,a+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print(end="\n")
+
+
+
+**OUTPUT**
+
+![image](https://github.com/user-attachments/assets/e77de4f1-4356-4e71-870a-79da6cb42627)
+
+
+**RESULT**
+
+Thus the program to print a pyramid pattern of numbers based on the number of rows entered by the user has been implemented and executed successfully.

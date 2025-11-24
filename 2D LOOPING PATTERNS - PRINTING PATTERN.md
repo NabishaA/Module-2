@@ -25,7 +25,6 @@ To write a Python program to print a pyramid pattern of numbers based on the num
 
 **PROGRAM**
 
-**212223060265 - SMRITHI K **
 
 a=int(input())
 for i in range(1,a+1):

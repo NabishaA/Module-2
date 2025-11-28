@@ -24,7 +24,7 @@ To write a Python program to calculate the sum of the odd number series from 1 t
 
 **PROGRAM**
 
-**212223060265 - SMRITHI K**
+```
 
 num=int(input())
 sum=0
@@ -34,6 +34,7 @@ for i in range(1,num+1):
     
 print(f"The sum of the series =  {sum}")
 
+```
 
 **OUTPUT**
 

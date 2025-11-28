@@ -24,7 +24,7 @@ To write a Python program to print a pyramid pattern of numbers based on the num
 
 
 **PROGRAM**
-
+```
 
 a=int(input())
 for i in range(1,a+1):
@@ -32,7 +32,7 @@ for i in range(1,a+1):
         print(j,end=" ")
     print(end="\n")
 
-
+```
 
 **OUTPUT**
 

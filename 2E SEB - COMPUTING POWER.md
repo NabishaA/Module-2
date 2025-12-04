@@ -1,4 +1,4 @@
-**Exp.No:2e  
+# Exp.No:2e  
 SEB - SUM OF ODD NUMBER SERIES**
 # NAME : NABISHA A
 # REG NO : 212223060177
